@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name" translatable="false">trò chơi
+        toán học</string>
+    <string name="title_activity_maytinh">maytinh</string>
+    <string name="title_activity_bangcuuchuong">bangcuuchuong</string>
+    <string name="title_activity_bangcuuchuong2">bangcuuchuong2</string>
+    <string name="title_activity_xembangcuuchuong">xembangcuuchuong</string>
+    <string name="title_activity_cap1_main">cap1_main</string>
+    <string name="title_activity_ctcap1">ctcap1</string>
+    <string name="title_activity_cap1_baigiai">cap1_baigiai</string>
+    <string name="title_activity_cap1_baihinh">cap1_baihinh</string>
+    <string name="title_activity_cap2_main">cap2_main</string>
+    <string name="title_activity_ctcap2">ctcap2</string>
+    <string name="title_activity_cap2_baigiai">cap2_baigiai</string>
+    <string name="title_activity_cap2_baihinh">cap2_baihinh</string>
+    <string name="title_activity_ctcap3">ctcap3</string>
+    <string name="title_activity_hard_main">hard_main</string>
+    <string name="title_activity_cap3_baigiai">cap3_baigiai</string>
+    <string name="title_activity_cap3_baihinh">cap3_baihinh</string>
+    <string name="title_activity_cap3_main">cap3_main</string>
+    <string name="title_activity_register">RegisterActivity</string>
+    <string name="title_activity_login">LoginActivity</string>
+</resources>

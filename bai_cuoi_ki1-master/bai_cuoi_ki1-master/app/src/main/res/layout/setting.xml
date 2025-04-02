@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bgsetting"
+    android:padding="16dp">
+
+
+    <!-- Các phần tử khác, ví dụ Switch theme -->
+<TextView
+    android:id="@+id/ten"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp"
+    android:text="xin chào"
+    android:textSize="16sp"
+    />
+
+    <Switch
+        android:id="@+id/switchTheme"
+        android:layout_width="168dp"
+        android:layout_height="52dp"
+        android:text="Chế độ tối/sáng" />
+
+    <TextView
+        android:id="@+id/historyTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:text="Thông tin bài làm chế độ dễ:"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/historyTextView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:text="Thông tin bài làm chế độ khó:"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/kq_easy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:text="Kỉ lục dễ"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:id="@+id/kq_normal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:text="Kỉ lục normal"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/clearDataButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#0000FF	"
+        android:text="xóa thông tin làm bài" />
+
+    <Button
+        android:id="@+id/clearDataButton2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#0000FF	"
+
+        android:text="xóa kỉ lục" />
+    <!-- Hiển thị kết quả đúng và sai -->
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="242dp"
+        android:layout_height="205dp"
+        android:layout_gravity="center"
+        android:scaleType="fitCenter"
+        android:src="@drawable/imgsetting" />
+
+
+</LinearLayout>
