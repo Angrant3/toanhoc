@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_bang_cuu_chuong"
+        android:title="📘 cấp 1" />
+    <item
+        android:id="@+id/menu_kiem_tra"
+        android:title="🧠 cấp 2" />
+    <item
+        android:id="@+id/menu_xem_diem"
+        android:title="📊 cấp 3" />
+</menu>

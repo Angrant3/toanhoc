@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Bai_cuoi_ki"
+        tools:targetApi="31">
+
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false"
+            android:label="@string/title_activity_login"
+            android:theme="@style/Theme.Bai_cuoi_ki" />
+        <activity
+            android:name=".RegisterActivity"
+            android:exported="false"
+            android:label="@string/title_activity_register"
+            android:theme="@style/Theme.Bai_cuoi_ki" />
+        <activity
+            android:name=".cap3_main"
+            android:exported="false"
+            android:label="@string/title_activity_cap3_main"
+            android:theme="@style/Theme.Bai_cuoi_ki" />
+        <activity
+            android:name=".cap3_baihinh"
+            android:exported="false"
+            android:label="@string/title_activity_cap3_baihinh"
+            android:theme="@style/Theme.Bai_cuoi_ki" />
+        <activity
+            android:name=".cap3_baigiai"
+            android:exported="false"
+            android:label="@string/title_activity_cap3_baigiai"
+            android:theme="@style/Theme.Bai_cuoi_ki" />
+        <activity
+            android:name=".hard_main"
+            android:exported="false"
+            android:label="@string/title_activity_hard_main"
+            android:theme="@style/Theme.Bai_cuoi_ki" />
+        <activity
+            android:name=".ctcap3"
+            android:exported="false"
+            android:label="@string/title_activity_ctcap3"
+            android:theme="@style/Theme.Bai_cuoi_ki" />
+        <activity
+            android:name=".cap2_baihinh"
+            android:exported="false"
+            android:label="@string/title_activity_cap2_baihinh"
+            android:theme="@style/Theme.Bai_cuoi_ki" />
+        <activity
+            android:name=".cap2_baigiai"
+            android:exported="false"
+            android:label="@string/title_activity_cap2_baigiai"
+            android:theme="@style/Theme.Bai_cuoi_ki" />
+        <activity
+            android:name=".ctcap2"
+            android:exported="false"
+            android:label="@string/title_activity_ctcap2"
+            android:theme="@style/Theme.Bai_cuoi_ki" />
+        <activity
+            android:name=".cap2_main"
+            android:exported="false"
+            android:label="@string/title_activity_cap2_main"
+            android:theme="@style/Theme.Bai_cuoi_ki" />
+        <activity
+            android:name=".cap1_baihinh"
+            android:exported="false"
+            android:label="@string/title_activity_cap1_baihinh"
+            android:theme="@style/Theme.Bai_cuoi_ki" />
+        <activity
+            android:name=".cap1_baigiai"
+            android:exported="false"
+            android:label="@string/title_activity_cap1_baigiai"
+            android:theme="@style/Theme.Bai_cuoi_ki" />
+        <activity
+            android:name=".ctcap1"
+            android:exported="false"
+            android:label="@string/title_activity_ctcap1"
+            android:theme="@style/Theme.Bai_cuoi_ki" />
+        <activity
+            android:name=".cap1_main"
+            android:exported="false"
+            android:label="@string/title_activity_cap1_main"
+            android:theme="@style/Theme.Bai_cuoi_ki" />
+        <activity
+            android:name=".xembangcuuchuong"
+            android:exported="false"
+            android:label="@string/title_activity_xembangcuuchuong"
+            android:theme="@style/Theme.Bai_cuoi_ki" />
+        <activity
+            android:name=".bangcuuchuong"
+            android:exported="false"
+            android:label="@string/title_activity_bangcuuchuong"
+            android:theme="@style/Theme.Bai_cuoi_ki" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SecondActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize" />
+        <activity
+            android:name=".EasyActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize" />
+        <activity
+            android:name=".normal_main"
+            android:configChanges="keyboardHidden|orientation|screenSize" />
+        <activity
+            android:name=".bangcuuchuong_main"
+            android:configChanges="keyboardHidden|orientation|screenSize" />
+        <activity
+            android:name=".LichSuActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize" />
+        <activity
+            android:name=".ThongKeActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize" />
+        <activity
+            android:name=".SendMessageActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize" />
+    </application>
+
+</manifest>

@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/nen_se"
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="-33dp">
+
+    <!-- Tiêu đề -->
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="354dp"
+        android:layout_height="88dp"
+        android:layout_marginStart="41dp"
+        android:layout_marginTop="79dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="84dp"
+        android:text="Mời chọn cấp bậc học"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toTopOf="@+id/de_vl"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- Button Cấp 1 -->
+
+    <!-- Button Cấp 2 -->
+    <Button
+        android:id="@+id/de_vl"
+        android:layout_width="402dp"
+        android:layout_height="125dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginBottom="104dp"
+        android:backgroundTint="#2975B1"
+        android:text="Cấp 1"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.358" />
+
+    <!-- Button Cấp 3 -->
+
+    <Button
+        android:id="@+id/vua"
+        android:layout_width="402dp"
+        android:layout_height="125dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginBottom="104dp"
+        android:backgroundTint="#2975B1"
+        android:text="Cấp 2"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.62" />
+
+    <!-- Ảnh Cấp 1 bên trái -->
+
+    <!-- Ảnh Cấp 1 bên phải -->
+
+    <Button
+        android:id="@+id/kho"
+        android:layout_width="402dp"
+        android:layout_height="125dp"
+        android:layout_marginStart="28dp"
+        android:backgroundTint="#2975B1"
+        android:text="Cấp 3"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.947"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.759" />
+
+    <ImageView
+        android:id="@+id/ima1"
+        android:layout_width="97dp"
+        android:layout_height="89dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/imgstudy1"
+        android:scaleType="fitCenter"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/de_vl" />
+
+    <!-- Ảnh Cấp 2 bên trái -->
+    <ImageView
+        android:id="@+id/ima4"
+        android:layout_width="97dp"
+        android:layout_height="89dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="40dp"
+        android:background="@drawable/tieuhoc"
+        android:scaleType="fitCenter"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/de_vl" />
+
+    <!-- Ảnh Cấp 2 bên phải -->
+    <ImageView
+        android:id="@+id/ima2"
+        android:layout_width="97dp"
+        android:layout_height="89dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/imgstudy2"
+        android:scaleType="fitCenter"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/vua" />
+
+    <!-- Ảnh Cấp 3 bên trái -->
+    <ImageView
+        android:id="@+id/ima5"
+        android:layout_width="97dp"
+        android:layout_height="89dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="40dp"
+        android:background="@drawable/trunghoc"
+        android:scaleType="fitCenter"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/vua" />
+
+    <!-- Ảnh Cấp 3 bên phải -->
+    <ImageView
+        android:id="@+id/ima3"
+        android:layout_width="97dp"
+        android:layout_height="89dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/imgstudy3"
+        android:scaleType="fitCenter"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/kho" />
+
+    <ImageView
+        android:id="@+id/ima6"
+        android:layout_width="83dp"
+        android:layout_height="98dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="40dp"
+        android:background="@drawable/phothong"
+        android:scaleType="fitCenter"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/kho" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

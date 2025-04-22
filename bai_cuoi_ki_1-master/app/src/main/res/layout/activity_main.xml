@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgmainlogin"
+    tools:context=".MainActivity">
+
+
+
+
+    <ImageView
+        android:id="@+id/imagetree"
+        android:layout_width="363dp"
+        android:layout_height="203dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="48dp"
+        android:background="@drawable/bgmainlogintext"
+        android:scaleType="fitCenter"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/convat"
+        android:layout_width="421dp"
+        android:layout_height="332dp"
+        android:layout_gravity="center"
+        android:background="@drawable/bgmainloginavar"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.961"
+        tools:layout_editor_absoluteX="-3dp"
+        tools:ignore="MissingConstraints" />
+
+
+    <ImageView
+        android:id="@+id/may"
+        android:layout_width="156dp"
+        android:layout_height="128dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="304dp"
+        android:background="@drawable/cloudimg"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.467"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/may3"
+        android:layout_width="159dp"
+        android:layout_height="104dp"
+        android:layout_gravity="center"
+        android:background="@drawable/cloudimg"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.299"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/start1"
+        android:layout_width="308dp"
+        android:layout_height="118dp"
+        android:backgroundTint="#218AB6"
+        android:textColor="#2196F3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.582"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.461" />
+
+    <ImageView
+        android:id="@+id/may2"
+        android:layout_width="118dp"
+        android:layout_height="85dp"
+        android:layout_gravity="center"
+        android:background="@drawable/cloudimg"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.89"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.038"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/start0"
+        android:layout_width="314dp"
+        android:layout_height="114dp"
+        android:backgroundTint="#BFDAE4"
+        android:text="Bắt đầu"
+        android:textColor="#2196F3"
+        android:textSize="50dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.555"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.448" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

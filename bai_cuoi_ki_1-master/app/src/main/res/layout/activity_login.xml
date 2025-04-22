@@ -1,0 +1,173 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bglogin"
+    android:padding="20dp">
+
+
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="374dp"
+        android:layout_height="547dp"
+        android:layout_gravity="center"
+        android:background="@drawable/bglogin1"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.282"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.075" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="374dp"
+        android:layout_height="547dp"
+        android:layout_gravity="center"
+        android:background="@drawable/bglogin1"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.282"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.075" />
+
+
+    <ImageView
+        android:id="@+id/imagetree"
+        android:layout_width="264dp"
+        android:layout_height="319dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="176dp"
+        android:layout_marginTop="376dp"
+        android:background="@drawable/tree"
+        android:scaleType="fitCenter"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnRegisterNow"
+        android:layout_width="150dp"
+        android:layout_height="73dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginBottom="104dp"
+        android:backgroundTint="#2975B1"
+        android:text="Đăng ký"
+        android:textSize="17dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView"
+        app:layout_constraintEnd_toEndOf="@+id/imageView" />
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="150dp"
+        android:layout_height="73dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginBottom="104dp"
+        android:backgroundTint="#2975B1"
+        android:text="Đăng Nhập"
+        android:textSize="17dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView"
+        app:layout_constraintStart_toStartOf="@+id/imageView" />
+
+    <EditText
+        android:id="@+id/etLoginUsername"
+        android:layout_width="275dp"
+        android:layout_height="66dp"
+        android:layout_marginBottom="296dp"
+        android:hint="Tên tài khoản"
+        android:textSize="17dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView"
+        app:layout_constraintEnd_toEndOf="@+id/imageView"
+        app:layout_constraintHorizontal_bias="0.868"
+        app:layout_constraintStart_toStartOf="@+id/imageView" />
+
+    <EditText
+        android:id="@+id/etLoginPassword"
+        android:layout_width="277dp"
+        android:layout_height="69dp"
+        android:hint="Mật khẩu"
+        android:textSize="17dp"
+        android:inputType="textPassword"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView"
+        app:layout_constraintEnd_toEndOf="@+id/imageView"
+        app:layout_constraintHorizontal_bias="0.865"
+        app:layout_constraintStart_toStartOf="@+id/imageView"
+        app:layout_constraintTop_toBottomOf="@+id/etLoginUsername"
+        app:layout_constraintVertical_bias="0.066" />
+
+    <ImageView
+        android:id="@+id/imagelogin"
+        android:layout_width="175dp"
+        android:layout_height="143dp"
+        android:layout_gravity="center"
+        android:background="@drawable/bgloginimg"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.074" />
+
+
+    <ImageView
+        android:id="@+id/imageloginuser"
+        android:layout_width="41dp"
+        android:layout_height="44dp"
+        android:layout_gravity="center"
+        android:background="@drawable/avaruser"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.087"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.262" />
+
+    <ImageView
+        android:id="@+id/imageloginlock"
+        android:layout_width="39dp"
+        android:layout_height="41dp"
+        android:layout_gravity="center"
+        android:background="@drawable/lock"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.084"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.368" />
+
+    <ImageView
+        android:id="@+id/imagecloud"
+        android:layout_width="239dp"
+        android:layout_height="139dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="580dp"
+        android:layout_marginEnd="224dp"
+        android:background="@drawable/grass"
+        android:scaleType="fitCenter"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imagecloud1"
+        android:layout_width="239dp"
+        android:layout_height="139dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="620dp"
+        android:layout_marginEnd="144dp"
+        android:background="@drawable/grass1"
+        android:scaleType="fitCenter"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
